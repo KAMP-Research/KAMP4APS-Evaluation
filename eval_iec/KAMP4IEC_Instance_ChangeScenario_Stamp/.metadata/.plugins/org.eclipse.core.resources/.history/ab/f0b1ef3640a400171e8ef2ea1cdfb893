@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository" xmlns:modificationmarks="http://sdq.ipd.kit.edu/modificationmarks">
+  <seedModifications xsi:type="modificationmarks:IECSeedModifications">
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.36"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.37"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.38"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.39"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.10"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.16"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.17"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.13"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.14"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecmodel#//@DeclaresGlobalVariable.15"/>
+    </globalVariableModifications>
+    <functionBlockModifications>
+      <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.3"/>
+    </functionBlockModifications>
+  </seedModifications>
+</modificationmarks:IECModificationRepository>

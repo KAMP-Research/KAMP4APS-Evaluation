@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;edu.kit.ipd.sdq.kamp.model.modificationmarks.presentation.ModificationmarksEditorID&quot; name=&quot;My.modificationmarks&quot; tooltip=&quot;TU_M&#xfc;nchen_Beispielprojekt/modified/My.modificationmarks&quot;>&#xD;&#xA;&lt;persistable path=&quot;/TU_M&#xfc;nchen_Beispielprojekt/modified/My.modificationmarks&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;edu.kit.ipd.sdq.kamp4iec.model.IECModel.presentation.IECModelEditorID&quot; name=&quot;My.iecmodel&quot; tooltip=&quot;TU_M&#xfc;nchen_Beispielprojekt/modified/My.iecmodel&quot;>&#xD;&#xA;&lt;persistable path=&quot;/TU_M&#xfc;nchen_Beispielprojekt/modified/My.iecmodel&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;edu.kit.ipd.sdq.kamp4iec.model.IECRepository.presentation.IECRepositoryEditorID&quot; name=&quot;My.iecrepository&quot; tooltip=&quot;TU_M&#xfc;nchen_Beispielprojekt/modified/My.iecrepository&quot;>&#xD;&#xA;&lt;persistable path=&quot;/TU_M&#xfc;nchen_Beispielprojekt/modified/My.iecrepository&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_ODzwgZ6wEeeL-ec6S9ZRXQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_ODzwgp6wEeeL-ec6S9ZRXQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_ODzwgZ6wEeeL-ec6S9ZRXQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_ODzwgp6wEeeL-ec6S9ZRXQ" label="%trimmedwindow.label.eclipseSDK" x="953" y="0" width="974" height="1047">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -11,7 +11,6 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1504953243154"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_ODzwgp6wEeeL-ec6S9ZRXQ" selectedElement="_ODzwg56wEeeL-ec6S9ZRXQ" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_ODzwg56wEeeL-ec6S9ZRXQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_ODzwhJ6wEeeL-ec6S9ZRXQ">
         <children xsi:type="advanced:Perspective" xmi:id="_ODzwhJ6wEeeL-ec6S9ZRXQ" elementId="org.eclipse.ui.resourcePerspective" selectedElement="_ODzwhZ6wEeeL-ec6S9ZRXQ" label="Resource" iconURI="platform:/plugin/org.eclipse.ui.ide.application/$nl$/icons/full/eview16/resource_persp.png">
@@ -257,7 +256,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_OD0YbJ6wEeeL-ec6S9ZRXQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pUjOwJ65EeeoT-pHiKJqpQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_OD3c1Z6wEeeL-ec6S9ZRXQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Wcyn4KRGEeegW-hmG3HgVg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_OD3c1Z6wEeeL-ec6S9ZRXQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_OD0YeZ6wEeeL-ec6S9ZRXQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -278,7 +277,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_OD0Yv56wEeeL-ec6S9ZRXQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pUlrAJ65EeeoT-pHiKJqpQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_OD3ccJ6wEeeL-ec6S9ZRXQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Wc0dEKRGEeegW-hmG3HgVg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_OD3ccJ6wEeeL-ec6S9ZRXQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_OD0YzJ6wEeeL-ec6S9ZRXQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
