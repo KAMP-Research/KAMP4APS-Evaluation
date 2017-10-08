@@ -8,6 +8,8 @@
     <InstantiatesFunctionBlock href="My.iecrepository#//@ContainsFunctionBlock.5"/>
     <ReadsProperty xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.10/@HasProperty.0"/>
     <ReadsProperty xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.2"/>
+    <ReadsProperty xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.0"/>
+    <ReadsProperty xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.9/@HasProperty.0"/>
     <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.10/@HasMethod.2"/>
     <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.4/@HasMethod.5"/>
     <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.4/@HasMethod.2"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<modificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:modificationmarks="http://sdq.ipd.kit.edu/modificationmarks">
+  <seedModifications xsi:type="modificationmarks:IECSeedModifications">
+    <programModifications>
+      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
+    </programModifications>
+  </seedModifications>
+</modificationmarks:IECModificationRepository>
