@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<IECModificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
+  <seedModifications xsi:type="IECModificationmarks:IECSeedModifications">
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.36"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.37"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.38"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.39"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.10"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.16"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.17"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.13"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.14"/>
+    </globalVariableModifications>
+    <globalVariableModifications>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.15"/>
+    </globalVariableModifications>
+    <functionBlockModifications>
+      <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.3"/>
+    </functionBlockModifications>
+  </seedModifications>
+</IECModificationmarks:IECModificationRepository>
