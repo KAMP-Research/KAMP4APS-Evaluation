@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IECFieldOfActivityAnnotations:IECFieldOfActivityAnnotationsRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECFieldOfActivityAnnotations="http://sdq.ipd.kit.edu/IECFieldOfActivityAnnotations" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
+  <developmentArtefactSpecification>
+    <sourceFiles filename="File1">
+      <component xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </sourceFiles>
+    <metadataFiles filename="MetaFile1">
+      <component xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </metadataFiles>
+  </developmentArtefactSpecification>
+  <testSpecification>
+    <unitTestCases nameOfTest="Test1">
+      <component xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </unitTestCases>
+  </testSpecification>
+</IECFieldOfActivityAnnotations:IECFieldOfActivityAnnotationsRepository>

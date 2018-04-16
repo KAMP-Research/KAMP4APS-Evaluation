@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IECFieldOfActivityAnnotations:IECFieldOfActivityAnnotationsRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECFieldOfActivityAnnotations="http://sdq.ipd.kit.edu/IECFieldOfActivityAnnotations" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
+  <developmentArtefactSpecification>
+    <sourceFiles>
+      <component xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    </sourceFiles>
+  </developmentArtefactSpecification>
+</IECFieldOfActivityAnnotations:IECFieldOfActivityAnnotationsRepository>
