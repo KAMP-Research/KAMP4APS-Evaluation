@@ -12,10 +12,6 @@
     </componentModifications>
   </seedModifications>
   <changePropagationSteps xsi:type="KAMP4aPSModificationmarks:ChangePropagationDueToHardwareChange">
-    <interfaceModifications id="_a9YCQX2mEeeDbKKokwB3UA_Ramp2_To_Frame" toolderived="true">
-      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_a9YCQX2mEeeDbKKokwB3UA"/>
-      <causingElements xsi:type="ComponentRepository:RegularRamp" href="My.aps#_YEppHnzfEeeVwtxsirjJlg"/>
-    </interfaceModifications>
     <interfaceModifications id="_ah180X2mEeeDbKKokwB3UA_Ramp1_To_Frame" toolderived="true">
       <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_ah180X2mEeeDbKKokwB3UA"/>
       <causingElements xsi:type="ComponentRepository:RegularRamp" href="My.aps#_W19BXnzfEeeVwtxsirjJlg"/>
@@ -24,38 +20,42 @@
       <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_bZGU8X2mEeeDbKKokwB3UA"/>
       <causingElements xsi:type="ComponentRepository:RegularRamp" href="My.aps#_YoumjnzfEeeVwtxsirjJlg"/>
     </interfaceModifications>
+    <interfaceModifications id="_a9YCQX2mEeeDbKKokwB3UA_Ramp2_To_Frame" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_a9YCQX2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ComponentRepository:RegularRamp" href="My.aps#_YEppHnzfEeeVwtxsirjJlg"/>
+    </interfaceModifications>
+    <interfaceModifications id="_lyt0IX2mEeeDbKKokwB3UA_OpticalSensor2_To_Frame" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_lyt0IX2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
+    </interfaceModifications>
     <interfaceModifications id="_nSSJcX2mEeeDbKKokwB3UA_PresenceSensor2_To_Frame" toolderived="true">
       <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_nSSJcX2mEeeDbKKokwB3UA"/>
-      <causingElements xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
-    </interfaceModifications>
-    <interfaceModifications id="_lTObwX2mEeeDbKKokwB3UA_OpticalSensor1_To_Frame" toolderived="true">
-      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_lTObwX2mEeeDbKKokwB3UA"/>
-      <causingElements xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
-    </interfaceModifications>
-    <interfaceModifications id="_mlAzwX2mEeeDbKKokwB3UA_InductiveSensor2_To_Frame" toolderived="true">
-      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_mlAzwX2mEeeDbKKokwB3UA"/>
       <causingElements xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
     </interfaceModifications>
     <interfaceModifications id="_mJswwX2mEeeDbKKokwB3UA_InductiveSensor1_To_Frame" toolderived="true">
       <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_mJswwX2mEeeDbKKokwB3UA"/>
       <causingElements xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
     </interfaceModifications>
-    <interfaceModifications id="_lyt0IX2mEeeDbKKokwB3UA_OpticalSensor2_To_Frame" toolderived="true">
-      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_lyt0IX2mEeeDbKKokwB3UA"/>
+    <interfaceModifications id="_lTObwX2mEeeDbKKokwB3UA_OpticalSensor1_To_Frame" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_lTObwX2mEeeDbKKokwB3UA"/>
       <causingElements xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
     </interfaceModifications>
     <interfaceModifications id="_m-ylsX2mEeeDbKKokwB3UA_PresenceSensor1_To_Frame" toolderived="true">
       <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_m-ylsX2mEeeDbKKokwB3UA"/>
       <causingElements xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
     </interfaceModifications>
-    <componentModifications id="Modification of 2">
-      <affectedElement xsi:type="ComponentRepository:RegularRamp" href="My.aps#_YEppHnzfEeeVwtxsirjJlg"/>
-    </componentModifications>
+    <interfaceModifications id="_mlAzwX2mEeeDbKKokwB3UA_InductiveSensor2_To_Frame" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_mlAzwX2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
+    </interfaceModifications>
     <componentModifications id="Modification of 1">
       <affectedElement xsi:type="ComponentRepository:RegularRamp" href="My.aps#_W19BXnzfEeeVwtxsirjJlg"/>
     </componentModifications>
     <componentModifications id="Modification of 3">
       <affectedElement xsi:type="ComponentRepository:RegularRamp" href="My.aps#_YoumjnzfEeeVwtxsirjJlg"/>
+    </componentModifications>
+    <componentModifications id="Modification of 2">
+      <affectedElement xsi:type="ComponentRepository:RegularRamp" href="My.aps#_YEppHnzfEeeVwtxsirjJlg"/>
     </componentModifications>
     <componentModifications id="_gwZt0XzeEeeVwtxsirjJlg_null" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
@@ -63,14 +63,11 @@
     </componentModifications>
     <componentModifications id="_gwZt0XzeEeeVwtxsirjJlg_null" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
-      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_a9YCQX2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_ah180X2mEeeDbKKokwB3UA"/>
     </componentModifications>
     <componentModifications id="_gwZt0XzeEeeVwtxsirjJlg_null" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Frame" href="My.aps#_gwZt0XzeEeeVwtxsirjJlg"/>
-      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_ah180X2mEeeDbKKokwB3UA"/>
-    </componentModifications>
-    <componentModifications id="Modification of 2">
-      <affectedElement xsi:type="ComponentRepository:RegularRamp" href="My.aps#_YEppHnzfEeeVwtxsirjJlg"/>
+      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_a9YCQX2mEeeDbKKokwB3UA"/>
     </componentModifications>
     <componentModifications id="Modification of 1">
       <affectedElement xsi:type="ComponentRepository:RegularRamp" href="My.aps#_W19BXnzfEeeVwtxsirjJlg"/>
@@ -87,29 +84,32 @@
     <componentModifications id="Modification of 3">
       <affectedElement xsi:type="ComponentRepository:RegularRamp" href="My.aps#_YoumjnzfEeeVwtxsirjJlg"/>
     </componentModifications>
+    <componentModifications id="Modification of 2">
+      <affectedElement xsi:type="ComponentRepository:RegularRamp" href="My.aps#_YEppHnzfEeeVwtxsirjJlg"/>
+    </componentModifications>
+    <moduleModifications id="_oWMsVnzcEeeksvdRgaWelw_2" toolderived="true">
+      <affectedElement xsi:type="ModuleRepository:OpticalSensorModule" href="My.aps#_oWMsVnzcEeeksvdRgaWelw"/>
+      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_lyt0IX2mEeeDbKKokwB3UA"/>
+    </moduleModifications>
     <moduleModifications id="_rwheKHzcEeeksvdRgaWelw_2" toolderived="true">
       <affectedElement xsi:type="ModuleRepository:PresenceSensorModule" href="My.aps#_rwheKHzcEeeksvdRgaWelw"/>
       <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_nSSJcX2mEeeDbKKokwB3UA"/>
-    </moduleModifications>
-    <moduleModifications id="_m3rf5nzcEeeksvdRgaWelw_1" toolderived="true">
-      <affectedElement xsi:type="ModuleRepository:OpticalSensorModule" href="My.aps#_m3rf5nzcEeeksvdRgaWelw"/>
-      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_lTObwX2mEeeDbKKokwB3UA"/>
-    </moduleModifications>
-    <moduleModifications id="_prHQ13zcEeeksvdRgaWelw_2" toolderived="true">
-      <affectedElement xsi:type="ModuleRepository:InductiveSensorModule" href="My.aps#_prHQ13zcEeeksvdRgaWelw"/>
-      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_mlAzwX2mEeeDbKKokwB3UA"/>
     </moduleModifications>
     <moduleModifications id="_ovfWF3zcEeeksvdRgaWelw_1" toolderived="true">
       <affectedElement xsi:type="ModuleRepository:InductiveSensorModule" href="My.aps#_ovfWF3zcEeeksvdRgaWelw"/>
       <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_mJswwX2mEeeDbKKokwB3UA"/>
     </moduleModifications>
-    <moduleModifications id="_oWMsVnzcEeeksvdRgaWelw_2" toolderived="true">
-      <affectedElement xsi:type="ModuleRepository:OpticalSensorModule" href="My.aps#_oWMsVnzcEeeksvdRgaWelw"/>
-      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_lyt0IX2mEeeDbKKokwB3UA"/>
+    <moduleModifications id="_m3rf5nzcEeeksvdRgaWelw_1" toolderived="true">
+      <affectedElement xsi:type="ModuleRepository:OpticalSensorModule" href="My.aps#_m3rf5nzcEeeksvdRgaWelw"/>
+      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_lTObwX2mEeeDbKKokwB3UA"/>
     </moduleModifications>
     <moduleModifications id="_qUDgKHzcEeeksvdRgaWelw_1" toolderived="true">
       <affectedElement xsi:type="ModuleRepository:PresenceSensorModule" href="My.aps#_qUDgKHzcEeeksvdRgaWelw"/>
       <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_m-ylsX2mEeeDbKKokwB3UA"/>
+    </moduleModifications>
+    <moduleModifications id="_prHQ13zcEeeksvdRgaWelw_2" toolderived="true">
+      <affectedElement xsi:type="ModuleRepository:InductiveSensorModule" href="My.aps#_prHQ13zcEeeksvdRgaWelw"/>
+      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_mlAzwX2mEeeDbKKokwB3UA"/>
     </moduleModifications>
   </changePropagationSteps>
 </KAMP4aPSModificationmarks:KAMP4aPSModificationRepository>

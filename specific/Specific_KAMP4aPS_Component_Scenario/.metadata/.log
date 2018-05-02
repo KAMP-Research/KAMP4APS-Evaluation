@@ -1,0 +1,134 @@
+!SESSION 2018-04-23 16:15:29.370 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data C:\Users\Jannis\Documents\workspace\KAMP4APS-Evaluation\specific\Specific_KAMP4aPS_Component_Scenario -dev file:C:/Users/Jannis/Documents/workspace/KAMP4APS/.metadata/.plugins/org.eclipse.pde.core/Timo/dev.properties -os win32 -ws win32 -arch x86_64 -consoleLog
+
+!ENTRY edu.kit.ipd.sdq.kamp4aps 4 0 2018-04-23 16:15:35.008
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.kit.ipd.sdq.kamp4aps [66]
+  Unresolved requirement: Require-Bundle: edu.kit.ipd.sdq.kamp4iec; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: edu.kit.ipd.sdq.kamp4iec; bundle-version="0.1.0.qualifier"; singleton:="true"
+       edu.kit.ipd.sdq.kamp4iec [87]
+         Unresolved requirement: Require-Bundle: edu.kit.ipd.sdq.kamp4hmi.model; bundle-version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY edu.kit.ipd.sdq.kamp4aps.model.modificationmarks.editor 4 0 2018-04-23 16:15:35.151
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.kit.ipd.sdq.kamp4aps.model.modificationmarks.editor [85]
+  Unresolved requirement: Import-Package: edu.kit.ipd.sdq.kamp4aps.core.derivation
+    -> Export-Package: edu.kit.ipd.sdq.kamp4aps.core.derivation; bundle-symbolic-name="edu.kit.ipd.sdq.kamp4aps"; bundle-version="1.0.0.qualifier"; version="0.0.0"
+       edu.kit.ipd.sdq.kamp4aps [66]
+         Unresolved requirement: Require-Bundle: edu.kit.ipd.sdq.kamp4iec; bundle-version="0.1.0"
+           -> Bundle-SymbolicName: edu.kit.ipd.sdq.kamp4iec; bundle-version="0.1.0.qualifier"; singleton:="true"
+              edu.kit.ipd.sdq.kamp4iec [87]
+                Unresolved requirement: Require-Bundle: edu.kit.ipd.sdq.kamp4hmi.model; bundle-version="1.0.0"
+  Unresolved requirement: Require-Bundle: edu.kit.ipd.sdq.kamp4iec; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: edu.kit.ipd.sdq.kamp4iec; bundle-version="0.1.0.qualifier"; singleton:="true"
+  Unresolved requirement: Import-Package: edu.kit.ipd.sdq.kamp4aps.core
+    -> Export-Package: edu.kit.ipd.sdq.kamp4aps.core; bundle-symbolic-name="edu.kit.ipd.sdq.kamp4aps"; bundle-version="1.0.0.qualifier"; version="0.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY edu.kit.ipd.sdq.kamp4iec 4 0 2018-04-23 16:15:35.173
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.kit.ipd.sdq.kamp4iec [87]
+  Unresolved requirement: Require-Bundle: edu.kit.ipd.sdq.kamp4hmi.model; bundle-version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY edu.kit.ipd.sdq.kamp4iec.model.modificationmarks.editor 4 0 2018-04-23 16:15:35.188
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.kit.ipd.sdq.kamp4iec.model.modificationmarks.editor [97]
+  Unresolved requirement: Require-Bundle: edu.kit.ipd.sdq.kamp4iec; bundle-version="0.1.0"
+    -> Bundle-SymbolicName: edu.kit.ipd.sdq.kamp4iec; bundle-version="0.1.0.qualifier"; singleton:="true"
+       edu.kit.ipd.sdq.kamp4iec [87]
+         Unresolved requirement: Require-Bundle: edu.kit.ipd.sdq.kamp4hmi.model; bundle-version="1.0.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.equinox.registry 2 1 2018-04-23 16:15:36.438
+!MESSAGE Problems parsing plug-in manifest for: "edu.kit.ipd.sdq.kamp4aps.model.deploymentcontext".
+!SUBENTRY 1 org.eclipse.equinox.registry 2 1 2018-04-23 16:15:36.439
+!MESSAGE Unknown element "requires", found within a "plugin", ignored (line: 8).
+!SUBENTRY 1 org.eclipse.equinox.registry 2 1 2018-04-23 16:15:36.439
+!MESSAGE Unknown element "import", found at the top level, ignored.
+!SUBENTRY 1 org.eclipse.equinox.registry 2 1 2018-04-23 16:15:36.439
+!MESSAGE Unknown element "import", found at the top level, ignored.
+!SUBENTRY 1 org.eclipse.equinox.registry 2 1 2018-04-23 16:15:36.441
+!MESSAGE Unknown element "import", found at the top level, ignored.
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-04-23 16:15:41.100
+!MESSAGE Both 'edu.kit.ipd.sdq.kamp4aps.aps' and 'edu.kit.ipd.sdq.kamp4aps.aps' register a package for 'edu.kit.ipd.sdq.kaps.xppu.componentrepository'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-04-23 16:15:41.108
+!MESSAGE Both 'edu.kit.ipd.sdq.kamp4aps.aps' and 'edu.kit.ipd.sdq.kamp4aps.aps' register a package for 'edu.kit.ipd.sdq.kaps.xppu.buscomponents'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-04-23 16:15:41.118
+!MESSAGE Both 'edu.kit.ipd.sdq.kamp4aps.aps' and 'edu.kit.ipd.sdq.kamp4aps.aps' register a package for 'edu.kit.ipd.sdq.kaps.xppu.electroniccomponents'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-04-23 16:15:41.129
+!MESSAGE Both 'edu.kit.ipd.sdq.kamp4aps.aps' and 'edu.kit.ipd.sdq.kamp4aps.aps' register a package for 'edu.kit.ipd.sdq.kaps.xppu.mechanicalcomponents'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-04-23 16:15:41.137
+!MESSAGE Both 'edu.kit.ipd.sdq.kamp4aps.aps' and 'edu.kit.ipd.sdq.kamp4aps.aps' register a package for 'edu.kit.ipd.sdq.kaps.xppu.structurerepository'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-04-23 16:15:41.138
+!MESSAGE Both 'edu.kit.ipd.sdq.kamp4aps.aps' and 'edu.kit.ipd.sdq.kamp4aps.aps' register a package for 'edu.kit.ipd.sdq.kaps.xppu.modulerepository'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-04-23 16:15:41.146
+!MESSAGE Both 'edu.kit.ipd.sdq.kamp4aps.aps' and 'edu.kit.ipd.sdq.kamp4aps.aps' register a package for 'edu.kit.ipd.sdq.kaps.xppu.interfacerepository'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-04-23 16:15:41.154
+!MESSAGE Both 'edu.kit.ipd.sdq.kamp4aps.model.fieldofactivityannotations' and 'edu.kit.ipd.sdq.kamp4aps.model.fieldofactivityannotations' register a package for 'http://sdq.ipd.kit.edu/KAPSFieldofactivityannotations/0.1'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-23 16:17:34.865
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Jannis'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 2 0 2018-04-23 16:17:35.811
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:445)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.access$5(SetupUIPlugin.java:416)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin$1$1.run(SetupUIPlugin.java:253)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

@@ -9,6 +9,10 @@
     <interfaceModifications id="Modification of Screwing_Howsing_To_Rack" toolderived="true">
       <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_4mbJMHXvEeetzKAOZG245w"/>
     </interfaceModifications>
+    <interfaceModifications id="_8v2YUHXREeetzKAOZG245w_Suspension_Rack_Table" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_8v2YUHXREeetzKAOZG245w"/>
+      <causingElements xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
+    </interfaceModifications>
     <interfaceModifications id="_32XscHXHEeetzKAOZG245w_Screwing_Rack_To_TurningTable" toolderived="true">
       <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_32XscHXHEeetzKAOZG245w"/>
       <causingElements xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
@@ -17,12 +21,9 @@
       <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_U5JF0HXNEeetzKAOZG245w"/>
       <causingElements xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
     </interfaceModifications>
-    <interfaceModifications id="_8v2YUHXREeetzKAOZG245w_Suspension_Rack_Table" toolderived="true">
-      <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_8v2YUHXREeetzKAOZG245w"/>
-      <causingElements xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
-    </interfaceModifications>
-    <interfaceModifications id="_BYQSYHXIEeetzKAOZG245w_Suspension_TurningTable_Arm" toolderived="true">
-      <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_BYQSYHXIEeetzKAOZG245w"/>
+    <interfaceModifications id="_DAgMAHdcEeecMou8C8bxpw_Fixture_Potentiometer_To_Table" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_DAgMAHdcEeecMou8C8bxpw"/>
+      <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_8Q45YHdbEeecMou8C8bxpw"/>
       <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_Rv3E4HXGEeetzKAOZG245w"/>
     </interfaceModifications>
     <interfaceModifications id="_V-4YIHXIEeetzKAOZG245w_Screwing_Splitter_To_TurningTable" toolderived="true">
@@ -33,10 +34,9 @@
       <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_JYW8gHXIEeetzKAOZG245w"/>
       <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_Rv3E4HXGEeetzKAOZG245w"/>
     </interfaceModifications>
-    <interfaceModifications id="_DAgMAHdcEeecMou8C8bxpw_Fixture_Potentiometer_To_Table" toolderived="true">
-      <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_DAgMAHdcEeecMou8C8bxpw"/>
+    <interfaceModifications id="_BYQSYHXIEeetzKAOZG245w_Suspension_TurningTable_Arm" toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_BYQSYHXIEeetzKAOZG245w"/>
       <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_Rv3E4HXGEeetzKAOZG245w"/>
-      <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_8Q45YHdbEeecMou8C8bxpw"/>
     </interfaceModifications>
     <interfaceModifications id="_JpNKMHXvEeetzKAOZG245w_Screwing_Arm_To_Gripper" toolderived="true">
       <affectedElement xsi:type="InterfaceRepository:Interface" href="My.aps#_JpNKMHXvEeetzKAOZG245w"/>
@@ -52,100 +52,100 @@
       <causingElements xsi:type="ComponentRepository:Component" href="My.aps#_jLIhyXXuEeetzKAOZG245w"/>
       <causingElements xsi:type="ComponentRepository:Component" href="My.aps#_YdxAKXXuEeetzKAOZG245w"/>
     </interfaceModifications>
-    <componentModifications id="_BPM5iXXHEeetzKAOZG245w_Rack" toolderived="true">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
-      <causingElements xsi:type="InterfaceRepository:Interface" href="My.aps#_4mbJMHXvEeetzKAOZG245w"/>
-    </componentModifications>
     <componentModifications id="_oYKK2XXvEeetzKAOZG245w_Housing of Crane Monostable Cylinder" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_oYKK2XXvEeetzKAOZG245w"/>
       <causingElements xsi:type="InterfaceRepository:Interface" href="My.aps#_4mbJMHXvEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Rack">
+    <componentModifications id="_BPM5iXXHEeetzKAOZG245w_Rack" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
+      <causingElements xsi:type="InterfaceRepository:Interface" href="My.aps#_4mbJMHXvEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Housing of Crane Monostable Cylinder">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_oYKK2XXvEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="_FLUJyXXHEeetzKAOZG245w_Simple Motor of the TurningTable Crane" toolderived="true">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_FLUJyXXHEeetzKAOZG245w"/>
-      <causingElements xsi:type="InterfaceRepository:Interface" href="My.aps#_U5JF0HXNEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Rack">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="_DQc_mXXHEeetzKAOZG245w_Table" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_DQc_mXXHEeetzKAOZG245w"/>
       <causingElements xsi:type="InterfaceRepository:Interface" href="My.aps#_8v2YUHXREeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Simple Motor of the TurningTable Crane">
+    <componentModifications id="_FLUJyXXHEeetzKAOZG245w_Simple Motor of the TurningTable Crane" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_FLUJyXXHEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Rack">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Housing of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_oYKK2XXvEeetzKAOZG245w"/>
+      <causingElements xsi:type="InterfaceRepository:Interface" href="My.aps#_U5JF0HXNEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Table">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_DQc_mXXHEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="_YV_EWXXGEeetzKAOZG245w_Arm" toolderived="true">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YV_EWXXGEeetzKAOZG245w"/>
-      <causingElements xsi:type="InterfaceRepository:Interface" href="My.aps#_BYQSYHXIEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Housing of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_oYKK2XXvEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Rack">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Simple Motor of the TurningTable Crane">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_FLUJyXXHEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="_b5ul-XXIEeetzKAOZG245w_Pneumatic Splitter of the Crane" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_b5ul-XXIEeetzKAOZG245w"/>
       <causingElements xsi:type="InterfaceRepository:Interface" href="My.aps#_V-4YIHXIEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="_0JiHKXXvEeetzKAOZG245w_Regular Valve of Crane Monostable Cylinder" toolderived="true">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_0JiHKXXvEeetzKAOZG245w"/>
-      <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_O-XiwHXIEeetzKAOZG245w"/>
+    <componentModifications id="_YV_EWXXGEeetzKAOZG245w_Arm" toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YV_EWXXGEeetzKAOZG245w"/>
+      <causingElements xsi:type="InterfaceRepository:Interface" href="My.aps#_BYQSYHXIEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="_st40-XXvEeetzKAOZG245w_Return Spring of Crane Monostable Cylinder" toolderived="true">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_st40-XXvEeetzKAOZG245w"/>
+    <componentModifications id="_yuAkWXXvEeetzKAOZG245w_Cylinder of Crane Monostable Cylinder" toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_yuAkWXXvEeetzKAOZG245w"/>
       <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_O-XiwHXIEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="_uUUnSXXvEeetzKAOZG245w_Reed Switch 1 of Crane Monostable Cylinder" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_uUUnSXXvEeetzKAOZG245w"/>
       <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_O-XiwHXIEeetzKAOZG245w"/>
     </componentModifications>
+    <componentModifications id="_0JiHKXXvEeetzKAOZG245w_Regular Valve of Crane Monostable Cylinder" toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_0JiHKXXvEeetzKAOZG245w"/>
+      <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_O-XiwHXIEeetzKAOZG245w"/>
+    </componentModifications>
     <componentModifications id="_wf1cmXXvEeetzKAOZG245w_Reed Switch 2  of Crane Monostable Cylinder" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_wf1cmXXvEeetzKAOZG245w"/>
       <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_O-XiwHXIEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="_yuAkWXXvEeetzKAOZG245w_Cylinder of Crane Monostable Cylinder" toolderived="true">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_yuAkWXXvEeetzKAOZG245w"/>
+    <componentModifications id="_st40-XXvEeetzKAOZG245w_Return Spring of Crane Monostable Cylinder" toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_st40-XXvEeetzKAOZG245w"/>
       <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_O-XiwHXIEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Simple Motor of the TurningTable Crane">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_FLUJyXXHEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Rack">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Regular Valve of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_0JiHKXXvEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Housing of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_oYKK2XXvEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Return Spring of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_st40-XXvEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Cylinder of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_yuAkWXXvEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Table">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_DQc_mXXHEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Pneumatic Splitter of the Crane">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_b5ul-XXIEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Arm">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YV_EWXXGEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Housing of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_oYKK2XXvEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Reed Switch 1 of Crane Monostable Cylinder">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_uUUnSXXvEeetzKAOZG245w"/>
     </componentModifications>
+    <componentModifications id="Modification of Regular Valve of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_0JiHKXXvEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Rack">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Arm">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YV_EWXXGEeetzKAOZG245w"/>
+    </componentModifications>
     <componentModifications id="Modification of Reed Switch 2  of Crane Monostable Cylinder">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_wf1cmXXvEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Cylinder of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_yuAkWXXvEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Simple Motor of the TurningTable Crane">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_FLUJyXXHEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Pneumatic Splitter of the Crane">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_b5ul-XXIEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Return Spring of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_st40-XXvEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="_gW11OXXuEeetzKAOZG245w_Regular Valve of Crane VacuumGripper" toolderived="true">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_gW11OXXuEeetzKAOZG245w"/>
@@ -159,20 +159,38 @@
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YdxAKXXuEeetzKAOZG245w"/>
       <causingElements xsi:type="ModuleRepository:Module" href="My.aps#_U0M_oHXGEeetzKAOZG245w"/>
     </componentModifications>
+    <componentModifications id="Modification of Cylinder of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_yuAkWXXvEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Housing of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_oYKK2XXvEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Reed Switch 1 of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_uUUnSXXvEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Regular Valve of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_0JiHKXXvEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Arm">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YV_EWXXGEeetzKAOZG245w"/>
+    </componentModifications>
     <componentModifications id="Modification of Return Spring of Crane Monostable Cylinder">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_st40-XXvEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Regular Valve of Crane VacuumGripper">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_gW11OXXuEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Table">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_DQc_mXXHEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Pneumatic Splitter of the Crane">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_b5ul-XXIEeetzKAOZG245w"/>
-    </componentModifications>
     <componentModifications id="Modification of Vacuum Switch">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_jLIhyXXuEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Cylinder of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_yuAkWXXvEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Rack">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Reed Switch 2  of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_wf1cmXXvEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Gripper of Crane VacuumGripper">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YdxAKXXuEeetzKAOZG245w"/>
@@ -180,41 +198,41 @@
     <componentModifications id="Modification of Simple Motor of the TurningTable Crane">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_FLUJyXXHEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Regular Valve of Crane VacuumGripper">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_gW11OXXuEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Pneumatic Splitter of the Crane">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_b5ul-XXIEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Rack">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Regular Valve of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_0JiHKXXvEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Cylinder of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_yuAkWXXvEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Housing of Crane Monostable Cylinder">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_oYKK2XXvEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Arm">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YV_EWXXGEeetzKAOZG245w"/>
-    </componentModifications>
     <componentModifications id="Modification of Reed Switch 1 of Crane Monostable Cylinder">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_uUUnSXXvEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Reed Switch 2  of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_wf1cmXXvEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Regular Valve of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_0JiHKXXvEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Arm">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YV_EWXXGEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Return Spring of Crane Monostable Cylinder">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_st40-XXvEeetzKAOZG245w"/>
     </componentModifications>
+    <componentModifications id="Modification of Regular Valve of Crane VacuumGripper">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_gW11OXXuEeetzKAOZG245w"/>
+    </componentModifications>
     <componentModifications id="Modification of Table">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_DQc_mXXHEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Pneumatic Splitter of the Crane">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_b5ul-XXIEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Vacuum Switch">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_jLIhyXXuEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Cylinder of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_yuAkWXXvEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Rack">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
+    </componentModifications>
+    <componentModifications id="Modification of Reed Switch 2  of Crane Monostable Cylinder">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_wf1cmXXvEeetzKAOZG245w"/>
     </componentModifications>
     <componentModifications id="Modification of Gripper of Crane VacuumGripper">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YdxAKXXuEeetzKAOZG245w"/>
@@ -222,26 +240,8 @@
     <componentModifications id="Modification of Simple Motor of the TurningTable Crane">
       <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_FLUJyXXHEeetzKAOZG245w"/>
     </componentModifications>
-    <componentModifications id="Modification of Regular Valve of Crane VacuumGripper">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_gW11OXXuEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Rack">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_BPM5iXXHEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Regular Valve of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_0JiHKXXvEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Housing of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_oYKK2XXvEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Arm">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_YV_EWXXGEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Reed Switch 1 of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_uUUnSXXvEeetzKAOZG245w"/>
-    </componentModifications>
-    <componentModifications id="Modification of Reed Switch 2  of Crane Monostable Cylinder">
-      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_wf1cmXXvEeetzKAOZG245w"/>
+    <componentModifications id="Modification of Pneumatic Splitter of the Crane">
+      <affectedElement xsi:type="ComponentRepository:Component" href="My.aps#_b5ul-XXIEeetzKAOZG245w"/>
     </componentModifications>
     <moduleModifications id="_Rv3E4HXGEeetzKAOZG245w_Turning Table" toolderived="true">
       <affectedElement xsi:type="ModuleRepository:Module" href="My.aps#_Rv3E4HXGEeetzKAOZG245w"/>
