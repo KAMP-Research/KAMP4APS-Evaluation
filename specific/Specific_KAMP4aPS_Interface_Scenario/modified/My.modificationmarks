@@ -5,17 +5,23 @@
       <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_YysTYX2mEeeDbKKokwB3UA"/>
     </interfaceModifications>
   </seedModifications>
-  <changePropagationSteps xsi:type="KAMP4aPSModificationmarks:ChangePropagationDueToHardwareChange" changed="true">
-    <interfaceModifications id="Modify_YysTYX2mEeeDbKKokwB3UA" toolderived="true">
+  <changePropagationSteps xsi:type="KAMP4aPSModificationmarks:ChangePropagationDueToHardwareChange">
+    <interfaceModifications id="Modification of Housing_To_Rack" toolderived="true">
       <affectedElement xsi:type="InterfaceRepository:Screwing" href="My.aps#_YysTYX2mEeeDbKKokwB3UA"/>
     </interfaceModifications>
+    <componentModifications id="_yfyUy4gPEeeXsoq8Y3PSQQ_of Turning Table" toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Rack" href="My.aps#_yfyUy4gPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_YysTYX2mEeeDbKKokwB3UA"/>
+    </componentModifications>
     <componentModifications id="_cgL1YoikEeeLXawdhzQHTw_of MonostableCylinder of Crane" toolderived="true">
       <affectedElement xsi:type="MechanicalComponents:Housing" href="My.aps#_cgL1YoikEeeLXawdhzQHTw"/>
       <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_YysTYX2mEeeDbKKokwB3UA"/>
     </componentModifications>
-    <componentModifications id="_yfyUy4gPEeeXsoq8Y3PSQQ_of Turning Table" toolderived="true">
+    <componentModifications id="Modification of of Turning Table">
       <affectedElement xsi:type="ComponentRepository:Rack" href="My.aps#_yfyUy4gPEeeXsoq8Y3PSQQ"/>
-      <causingElements xsi:type="InterfaceRepository:Screwing" href="My.aps#_YysTYX2mEeeDbKKokwB3UA"/>
+    </componentModifications>
+    <componentModifications id="Modification of of MonostableCylinder of Crane">
+      <affectedElement xsi:type="MechanicalComponents:Housing" href="My.aps#_cgL1YoikEeeLXawdhzQHTw"/>
     </componentModifications>
   </changePropagationSteps>
 </KAMP4aPSModificationmarks:KAMP4aPSModificationRepository>

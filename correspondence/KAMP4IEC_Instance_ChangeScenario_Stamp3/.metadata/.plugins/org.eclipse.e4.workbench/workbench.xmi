@@ -114,7 +114,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_gQU2CCzyEeit7d-uSQW6LA" elementId="org.eclipse.ui.editorss" selectedElement="_gQU2CSzyEeit7d-uSQW6LA">
-      <children xsi:type="basic:PartStack" xmi:id="_gQU2CSzyEeit7d-uSQW6LA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_gQU2RCzyEeit7d-uSQW6LA">
+      <children xsi:type="basic:PartStack" xmi:id="_gQU2CSzyEeit7d-uSQW6LA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_gQU2PyzyEeit7d-uSQW6LA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
@@ -343,6 +343,8 @@
           <tags>Editor</tags>
           <tags>edu.kit.ipd.sdq.kamp4iec.model.IECModificationmarks.presentation.IECModificationmarksEditorID</tags>
           <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
           <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2QCzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECModificationmarks.presentation.IECModificationmarksEditorID">
             <tags>menuContribution:popup</tags>
             <tags>popup:edu.kit.ipd.sdq.kamp4iec.model.IECModificationmarks.presentation.IECModificationmarksEditorID</tags>
@@ -365,8 +367,6 @@
           <tags>Editor</tags>
           <tags>edu.kit.ipd.sdq.kamp.model.modificationmarks.presentation.ModificationmarksEditorID</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
           <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2RSzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp.model.modificationmarks.presentation.ModificationmarksEditorID">
             <tags>menuContribution:popup</tags>
             <tags>popup:edu.kit.ipd.sdq.kamp.model.modificationmarks.presentation.ModificationmarksEditorID</tags>
@@ -394,40 +394,6 @@
           <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2ZSzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp.model.modificationmarks.presentation.ModificationmarksEditorID">
             <tags>menuContribution:popup</tags>
             <tags>popup:edu.kit.ipd.sdq.kamp.model.modificationmarks.presentation.ModificationmarksEditorID</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_gQU2ZizyEeit7d-uSQW6LA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="My.iecfieldofactivityannotations" iconURI="platform:/plugin/edu.kit.ipd.sdq.kamp4iec.model.fieldofactivityannotations.editor/icons/full/obj16/IECFieldOfActivityAnnotationsModelFile.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID&quot; name=&quot;My.iecfieldofactivityannotations&quot; partName=&quot;My.iecfieldofactivityannotations&quot; title=&quot;My.iecfieldofactivityannotations&quot; tooltip=&quot;TU_M&#xfc;nchen_Beispielprojekt/modified/My.iecfieldofactivityannotations&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TU_M&#xfc;nchen_Beispielprojekt/modified/My.iecfieldofactivityannotations&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2ZyzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2gizyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2gyzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2hCzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2hSzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2hizyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_gQU2hyzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID</tags>
           </menus>
         </children>
       </children>
@@ -533,7 +499,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_gQemGCzyEeit7d-uSQW6LA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_A2QnAE39EeitwPQbLQonSg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_gQfXgSzyEeit7d-uSQW6LA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_iV2voFKlEeid1b2qmiQBWQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_gQfXgSzyEeit7d-uSQW6LA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_gQemJSzyEeit7d-uSQW6LA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -554,24 +520,9 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_gQemVSzyEeit7d-uSQW6LA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_A2TDQE39EeitwPQbLQonSg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_gQfXHCzyEeit7d-uSQW6LA"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_gQemXyzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECModificationmarks.presentation.IECModificationmarksEditorID" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_gQemYizyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECRepository.presentation.IECRepositoryEditorID" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_gQemZSzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECModel.presentation.IECModelEditorID" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_gQemayzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4iec.model.IECFieldOfActivityAnnotations.presentation.IECFieldOfActivityAnnotationsEditorID" visible="false">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_iV82QFKlEeid1b2qmiQBWQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_gQfXHCzyEeit7d-uSQW6LA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_gQembizyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4aps.model.aPS.presentation.apsEditorID" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_gQemcSzyEeit7d-uSQW6LA" elementId="edu.kit.ipd.sdq.kamp4aps.model.DeploymentContext.presentation.DeploymentContextEditorID" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_gQemdCzyEeit7d-uSQW6LA" elementId="group.editor" toBeRendered="false">
@@ -1863,6 +1814,18 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.team.svn.ui"/>
     <tags>View</tags>
     <tags>categoryTag:SVN</tags>
+  </descriptors>
+  <descriptors xmi:id="_jpg0EFKeEeiAmeZl5uHm4g" elementId="de.uhd.ifi.se.pcm.bppcm.ui.processCalendarView" label="Process Calendar" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.uhd.ifi.se.pcm.bppcm.ui.ProcessCalendar"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.uhd.ifi.se.pcm.bppcm.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_jpiCMFKeEeiAmeZl5uHm4g" elementId="de.uhd.ifi.se.pcm.bppcm.ui.ActorCalendar" label="ActorCalendar" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="de.uhd.ifi.se.pcm.bppcm.ui.ActorCalendar"/>
+    <persistedState key="originalCompatibilityViewBundle" value="de.uhd.ifi.se.pcm.bppcm.ui"/>
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">

@@ -2,37 +2,17 @@
 <IECModificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
   <seedModifications xsi:type="IECModificationmarks:IECSeedModifications">
     <globalVariableModifications>
-      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+      <affectedElement xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.15"/>
     </globalVariableModifications>
   </seedModifications>
   <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
-    <programModifications toolderived="true">
-      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
-      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
-    </programModifications>
     <configurationModifications toolderived="true">
       <affectedElement xsi:type="IECModel:Configuration" href="My.iecmodel#/"/>
-      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.15"/>
     </configurationModifications>
-  </changePropagationSteps>
-  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
-    <programModifications toolderived="true">
-      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
-      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
-    </programModifications>
-    <configurationModifications toolderived="true">
-      <affectedElement xsi:type="IECModel:Configuration" href="My.iecmodel#/"/>
-      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
-    </configurationModifications>
-  </changePropagationSteps>
-  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
-    <programModifications toolderived="true">
-      <affectedElement xsi:type="IECModel:Program" href="My.iecmodel#//@InstantiatesProgram.0"/>
-      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
-    </programModifications>
-    <configurationModifications toolderived="true">
-      <affectedElement xsi:type="IECModel:Configuration" href="My.iecmodel#/"/>
-      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.0"/>
-    </configurationModifications>
+    <methodModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.7/@HasMethod.6"/>
+      <causingElements xsi:type="IECReporitory:GlobalVariable" href="My.iecrepository#//@ContainsGlobalVariable.15"/>
+    </methodModifications>
   </changePropagationSteps>
 </IECModificationmarks:IECModificationRepository>
