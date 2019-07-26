@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ASCII"?>
+<KAMP4aPSModificationmarks:KAMP4aPSModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BusComponents="edu.kit.ipd.sdq.kaps.xppu.buscomponents" xmlns:ComponentRepository="edu.kit.ipd.sdq.kaps.xppu.componentrepository" xmlns:ElectronicComponents="edu.kit.ipd.sdq.kaps.xppu.electroniccomponents" xmlns:InterfaceRepository="edu.kit.ipd.sdq.kaps.xppu.interfacerepository" xmlns:KAMP4aPSModificationmarks="http://sdq.ipd.kit.edu/KAMP4aPSModificationmarks/1.0" xmlns:MechanicalComponents="edu.kit.ipd.sdq.kaps.xppu.mechanicalcomponents" xmlns:ModuleRepository="edu.kit.ipd.sdq.kaps.xppu.modulerepository">
+  <seedModifications xsi:type="KAMP4aPSModificationmarks:KAMP4aPSSeedModifications">
+    <moduleModifications>
+      <affectedElement xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_trvW4YgPEeeXsoq8Y3PSQQ"/>
+    </moduleModifications>
+    <moduleModifications>
+      <affectedElement xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xRJXUYgPEeeXsoq8Y3PSQQ"/>
+    </moduleModifications>
+    <moduleModifications>
+      <affectedElement xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xxV6UYgPEeeXsoq8Y3PSQQ"/>
+    </moduleModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="KAMP4aPSModificationmarks:ChangePropagationDueToHardwareChange">
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Fixture" href="My.aps#_CVLkin2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_trvW4YgPEeeXsoq8Y3PSQQ"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_-yqqln2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_trvW4YgPEeeXsoq8Y3PSQQ"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Fixture" href="My.aps#_BXS_8X2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xRJXUYgPEeeXsoq8Y3PSQQ"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_CJ5sJn2nEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xRJXUYgPEeeXsoq8Y3PSQQ"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Fixture" href="My.aps#_Cs0Ban2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xxV6UYgPEeeXsoq8Y3PSQQ"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_CmvZJn2nEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xxV6UYgPEeeXsoq8Y3PSQQ"/>
+    </interfaceModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#__4jFv4gPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_trvW4YgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ElectronicComponents:MicroSwitch" href="My.aps#_Bcj2P4gQEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_trvW4YgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="MechanicalComponents:Table" href="My.aps#_RLJ1mylBEemkz_Somx4JrA"/>
+      <causingElements xsi:type="InterfaceRepository:Fixture" href="My.aps#_CVLkin2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="InterfaceRepository:Fixture" href="My.aps#_BXS_8X2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="InterfaceRepository:Fixture" href="My.aps#_Cs0Ban2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Controller" href="My.aps#_M6rzuBmPEemRabMi1To0eA"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_-yqqln2mEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_CJ5sJn2nEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_CmvZJn2nEeeDbKKokwB3UA"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="BusComponents:BusCable" href="My.aps#_yw2XU32pEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_-yqqln2mEeeDbKKokwB3UA"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#_Pl2FD4gQEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xRJXUYgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ElectronicComponents:MicroSwitch" href="My.aps#_YvP5n4gQEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xRJXUYgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="BusComponents:BusCable" href="My.aps#_xugwk32pEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_CJ5sJn2nEeeDbKKokwB3UA"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#_QSfvr4gQEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xxV6UYgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ElectronicComponents:MicroSwitch" href="My.aps#_Zu4xdIgQEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xxV6UYgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="BusComponents:BusCable" href="My.aps#_cZisM32rEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_CmvZJn2nEeeDbKKokwB3UA"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Rack" href="My.aps#_yfyUy4gPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:SimpleMotor" href="My.aps#_2T-YSYgPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <moduleModifications>
+      <affectedElement xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_trvW4YgPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </moduleModifications>
+    <moduleModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_trvW4YgPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xRJXUYgPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xxV6UYgPEeeXsoq8Y3PSQQ"/>
+    </moduleModifications>
+    <moduleModifications>
+      <affectedElement xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xRJXUYgPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </moduleModifications>
+    <moduleModifications>
+      <affectedElement xsi:type="ModuleRepository:MicroswitchModule" href="My.aps#_xxV6UYgPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </moduleModifications>
+  </changePropagationSteps>
+</KAMP4aPSModificationmarks:KAMP4aPSModificationRepository>

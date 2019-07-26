@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fieldofactivityannotations:FieldOfActivityAnnotationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fieldofactivityannotations="http://sdq.ipd.kit.edu/KAPSFieldofactivityannotations/0.1">
+  <calibrationSpecification/>
+  <testSpecification/>
+  <stockSpecification/>
+  <hmiSpecification/>
+  <ecadSpecification/>
+  <documentationSpecification/>
+  <staffSpecification/>
+</fieldofactivityannotations:FieldOfActivityAnnotationRepository>

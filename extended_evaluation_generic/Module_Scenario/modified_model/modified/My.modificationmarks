@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ASCII"?>
+<KAMP4aPSModificationmarks:KAMP4aPSModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BusComponents="edu.kit.ipd.sdq.kaps.xppu.buscomponents" xmlns:ComponentRepository="edu.kit.ipd.sdq.kaps.xppu.componentrepository" xmlns:ElectronicComponents="edu.kit.ipd.sdq.kaps.xppu.electroniccomponents" xmlns:InterfaceRepository="edu.kit.ipd.sdq.kaps.xppu.interfacerepository" xmlns:KAMP4aPSModificationmarks="http://sdq.ipd.kit.edu/KAMP4aPSModificationmarks/1.0" xmlns:MechanicalComponents="edu.kit.ipd.sdq.kaps.xppu.mechanicalcomponents" xmlns:ModuleRepository="edu.kit.ipd.sdq.kaps.xppu.modulerepository" xmlns:StructureRepository="edu.kit.ipd.sdq.kaps.xppu.structurerepository">
+  <seedModifications xsi:type="KAMP4aPSModificationmarks:KAMP4aPSSeedModifications">
+    <moduleModifications>
+      <affectedElement xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </moduleModifications>
+    <componentModifications>
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#_mn1OMIi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications>
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#_gPIVQRilEemO4PJ9w_HtYA"/>
+    </componentModifications>
+    <componentModifications>
+      <affectedElement xsi:type="ElectronicComponents:Potentiometer" href="My.aps#_ijxi-Ii5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications>
+      <affectedElement xsi:type="ComponentRepository:Controller" href="My.aps#_M6rzuBmPEemRabMi1To0eA"/>
+    </componentModifications>
+    <componentModifications>
+      <affectedElement xsi:type="BusComponents:BusCable" href="My.aps#_9Ltq1Ii5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <interfaceModifications>
+      <affectedElement xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_4EwX5oi5EeedS_UHHgW63w"/>
+    </interfaceModifications>
+  </seedModifications>
+  <changePropagationSteps xsi:type="KAMP4aPSModificationmarks:ChangePropagationDueToHardwareChange">
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_4EwX5oi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ElectronicComponents:Potentiometer" href="My.aps#_ijxi-Ii5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ComponentRepository:Controller" href="My.aps#_M6rzuBmPEemRabMi1To0eA"/>
+      <causingElements xsi:type="BusComponents:BusCable" href="My.aps#_9Ltq1Ii5EeedS_UHHgW63w"/>
+    </interfaceModifications>
+    <interfaceModifications toolderived="true">
+      <affectedElement xsi:type="InterfaceRepository:Fixture" href="My.aps#_s3sCioi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </interfaceModifications>
+    <componentModifications>
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#_mn1OMIi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications>
+      <affectedElement xsi:type="ComponentRepository:Fixture" href="My.aps#_gPIVQRilEemO4PJ9w_HtYA"/>
+      <causingElements xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications>
+      <affectedElement xsi:type="ElectronicComponents:Potentiometer" href="My.aps#_ijxi-Ii5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_4EwX5oi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Controller" href="My.aps#_M6rzuBmPEemRabMi1To0eA"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_4EwX5oi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="BusComponents:BusCable" href="My.aps#_9Ltq1Ii5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="InterfaceRepository:SignalInterface" href="My.aps#_4EwX5oi5EeedS_UHHgW63w"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="MechanicalComponents:Table" href="My.aps#_RLJ1mylBEemkz_Somx4JrA"/>
+      <causingElements xsi:type="InterfaceRepository:Fixture" href="My.aps#_s3sCioi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:Rack" href="My.aps#_yfyUy4gPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <componentModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:SimpleMotor" href="My.aps#_2T-YSYgPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </componentModifications>
+    <structureModifications toolderived="true">
+      <affectedElement xsi:type="StructureRepository:ControlCabinet" href="My.aps#_W4jGg3zYEeemcf4jT0r-Vg"/>
+      <causingElements xsi:type="ComponentRepository:Controller" href="My.aps#_M6rzuBmPEemRabMi1To0eA"/>
+    </structureModifications>
+    <structureModifications toolderived="true">
+      <affectedElement xsi:type="StructureRepository:LogicalWiring" href="My.aps#_vB2WHn2pEeeDbKKokwB3UA"/>
+      <causingElements xsi:type="BusComponents:BusCable" href="My.aps#_9Ltq1Ii5EeedS_UHHgW63w"/>
+    </structureModifications>
+    <moduleModifications toolderived="true">
+      <affectedElement xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ComponentRepository:Fixture" href="My.aps#_mn1OMIi5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ComponentRepository:Fixture" href="My.aps#_gPIVQRilEemO4PJ9w_HtYA"/>
+      <causingElements xsi:type="ElectronicComponents:Potentiometer" href="My.aps#_ijxi-Ii5EeedS_UHHgW63w"/>
+      <causingElements xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+    </moduleModifications>
+    <moduleModifications toolderived="true">
+      <affectedElement xsi:type="ComponentRepository:TurningTable" href="My.aps#_jMETAIgPEeeXsoq8Y3PSQQ"/>
+      <causingElements xsi:type="ModuleRepository:PotentiometerModule" href="My.aps#_eHTXYoi5EeedS_UHHgW63w"/>
+    </moduleModifications>
+  </changePropagationSteps>
+</KAMP4aPSModificationmarks:KAMP4aPSModificationRepository>
